@@ -2,27 +2,29 @@ body{
     margin: 0;
 }
 .container{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: url("./assets/weather2.jpg");
     width: 100vw;
     height: 100vh;
-    display: grid;
+    display: grid;   
     justify-content: center;
     align-items: center;
+    margin:0px;
 }
 .card { 
     border-radius: 20px;
-    padding: 2px;
-    background: rgba(255, 255, 255, 0.482);
+    padding: 4px;
+    background: rgba(195, 195, 195, 0.443);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: block;
-    width: 500px;
+    width: 350px;
+    height: 487px;
     aspect-ratio: 0.98;
     overflow: hidden;
     text-align: center;
 }
 .text_color{
-    color: rgb(48, 11, 116);
+    color: rgb(81, 21, 193);
     font-family: sans-serif;
     
 }
@@ -30,14 +32,14 @@ body{
    color: rgb(0, 0, 0);
 }
 .container_location{
-    color: rgb(48, 11, 116);
+    color: rgb(81, 21, 193);
 }
 .container_weather{
     display: flex;
     overflow: hidden;
 }
 .container_weather_image{
-    width: 50%;
+    width: 49.4%;
 }
 .container_weather_data{
     width: 50%;
@@ -47,7 +49,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container_temperature{
-    color:rgb(48, 11, 116);
+    color:rgb(81, 21, 193);
     padding-bottom: 10px;
 }
 .btn{
@@ -85,25 +87,26 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h3{
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 ul{
-    font-size: 16px;
-    padding-top: 7px;
+    font-size: 15px;
+    padding-top: 2px;
     
 }
 li{
     list-style:none;
-    padding: 6px;
+    padding: 2px;
 
 }
 p{
     margin: 0;
 }
 img{
-    width: 190px;
+    width: 140px;
 }
 footer{
     text-align: center;
@@ -123,13 +126,13 @@ footer{
     margin: 0;
     color: #000;
 }
-
-/***********************************/
 .lds-ring {
     display: inline-block;
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    margin-inline: 17px;
+    
   }
   .lds-ring div {
     box-sizing: border-box;
@@ -145,6 +148,7 @@ footer{
   }
   .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
+    
   }
   .lds-ring div:nth-child(2) {
     animation-delay: -0.3s;
