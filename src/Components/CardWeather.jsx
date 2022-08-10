@@ -55,7 +55,7 @@ const [isLoading, setIsLoading] = useState(true)
                   <li><b className="text_color">Wind Speed: </b>{weather?.wind.speed} m/s</li>
                   <li><b className="text_color">Humidity: </b>{weather?.main.humidity}%</li>
                   <li><b className="text_color">Clouds: </b>{weather?.clouds.all}%</li>
-                  <li><b className="text_color">Altitude: </b>{weather?.main.sea_level} m.s.n.m</li>
+                  {/* <li><b className="text_color">Altitude: </b>{weather?.main.sea_level} msnm</li> */}
                   <li><b className="text_color">Presure: </b>{weather?.main.pressure} PSI</li>
                 </ul>
               </div>

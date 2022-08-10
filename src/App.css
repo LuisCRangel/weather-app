@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .container{
-    color: rgb(255, 255, 255);
+    color: rgb(48, 47, 47);
     background: url("./assets/weather2.jpg");
     width: 100vw;
     height: 100vh;
@@ -17,7 +17,7 @@ body{
     background: rgba(195, 195, 195, 0.443);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: block;
-    width: 350px;
+    width: 355px;
     height: 487px;
     aspect-ratio: 0.98;
     overflow: hidden;
@@ -39,11 +39,12 @@ body{
     overflow: hidden;
 }
 .container_weather_image{
-    width: 49.4%;
+    width: 50%;
 }
 .container_weather_data{
-    width: 50%;
-    padding-top: 30px;
+    width: 70%;
+    margin-inline: ;
+    padding-top: 40px;
     padding-left: 0; 
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -88,25 +89,27 @@ h2{
 }
 h3{
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 17px;
     text-transform: capitalize;
+    margin-inline-start: 3px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 ul{
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 2px;
+    text-align: left;
     
 }
 li{
     list-style:none;
-    padding: 2px;
+    padding: 5px;
 
 }
 p{
     margin: 0;
 }
 img{
-    width: 140px;
+    width: 150px;
 }
 footer{
     text-align: center;
