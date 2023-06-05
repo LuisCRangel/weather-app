@@ -4,6 +4,9 @@ body{
 .container{
     color: rgb(48, 47, 47);
     background: url("./assets/weather2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     display: grid;   
@@ -43,7 +46,6 @@ body{
 }
 .container_weather_data{
     width: 70%;
-    margin-inline: ;
     padding-top: 40px;
     padding-left: 0; 
     text-align: left;
@@ -118,15 +120,17 @@ footer{
 }
 .loading-container {
     color: rgb(0, 0, 0);
-    background: url("./assets/weather2.jpg");
-    width: 100vw;
+    background-image: url("./assets/weather2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
     height: 100vh;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .card-loading{
-    margin: 0;
+    margin: 0 auto;
     color: #000;
 }
 .lds-ring {
